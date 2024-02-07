@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-ai"
+version = "0.1.0"
+description = "a streamlit app that allows users to upload PDF files, enter a search query, and receive relevant text snippets from the PDF as search results."
+authors = ["Abdullah Al Nahas <abdullah.nahass@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+FlagEmbedding = "1.2.3"
+qdrant-client = "1.7.2"
+streamlit = "1.31.0"
+"pdfminer.six" = "20231228"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
