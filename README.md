@@ -28,8 +28,11 @@ docker run -p 8501:8501 pdf-search-app
 #### Without Docker
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+git clone https://github.com/abdullah-alnahas/pdf-ai/
+cd pdf-ai
+pip install poetry==1.7.1
+poetry install
+poetry run streamlit run app.py
 ```
 
 
